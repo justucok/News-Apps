@@ -57,7 +57,8 @@ import com.squareup.picasso.Picasso
 
 class CategoryRVAdapter(
     private val context: ArrayList<CategoryRVModal>,
-    private val categoryClickInterface: CategoryClickInterface
+    private val categoryClickInterface: CategoryClickInterface,
+    mainActivity: MainActivity
 ) :
     RecyclerView.Adapter<CategoryRVAdapter.ViewHolder>() {
 

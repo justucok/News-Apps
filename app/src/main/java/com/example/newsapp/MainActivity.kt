@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity(), CategoryRVAdapter.CategoryClickInterfa
 
     private fun getCategories() {
         categoryRVModalArrayList.add(CategoryRVModal("All", "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmV3c3xlbnwwfHwwfHx8MA%3D%3D"))
+        categoryRVModalArrayList.add(CategoryRVModal("Politics", "https://plus.unsplash.com/premium_photo-1681492405224-b787ee736768?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9saXRpY3N8ZW58MHx8MHx8fDA%3D"))
         categoryRVModalArrayList.add(CategoryRVModal("Technology", "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D"))
         categoryRVModalArrayList.add(CategoryRVModal("Sport", "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BvcnR8ZW58MHx8MHx8fDA%3D"))
         categoryRVModalArrayList.add(CategoryRVModal("Entertainment", "https://images.unsplash.com/photo-1499364615650-ec38552f4f34?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZW50ZXJ0YWlubWVudHxlbnwwfHwwfHx8MA%3D%3D"))
